@@ -1,15 +1,19 @@
-import Hero from "@/components/HeroSection";
-import Stat from "@/components/StatsSection";
-import Temoignage from "@/components/TestimonialSection";
-import Rejoidre from "@/components/CallToActionSection";
+import Stats from "./components/StatsSection"
+import Hero from "./components/HeroSection"
+import Info from "./components/InfoSection"
+import Video from "./components/VideoSection"
+import Objective from "./components/ObjectiveSection"
+import Call from "./components/CallToActionSection"
 
-export default function Accueil(){
+export default function Lutte(){
   return(
     <div>
-      <Hero/>
-      <Stat/>
-      <Temoignage/>
-      <Rejoidre/>
+        <Hero/>
+        <Stats/>
+        <Info/>
+        <Video/>
+        <Objective/>
+        <Call/>
     </div>
   )
 }
