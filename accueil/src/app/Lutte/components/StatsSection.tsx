@@ -10,40 +10,40 @@ export default function Stats(){
             </div>
             <div className="bg-gray-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-10 py-8 ">
                 <StatCard
-                icon={<UsersIcon className="text-blue-500"/>}
-                chiffre={"2.5M"}
-                textcolor={"text-blue-500"}
-                bordercolor={"border-blue-100"}
-                description={"Personnes infectées par l'hépatite B"}
-                bgColor={"bg-blue-50"}
-            />
+                    icon={<UsersIcon className="text-blue-500"/>}
+                    chiffre={"2.5M"}
+                    textcolor={"text-blue-500"}
+                    bordercolor={"border-blue-100"}
+                    description={"Personnes infectées par l'hépatite B"}
+                    bgColor={"bg-blue-50"}
+                />
             
-            <StatCard
-                icon={<AlertTriangleIcon className="text-green-500"/>}
-                chiffre={"800k"}
-                textcolor={"text-green-500"}
-                bordercolor={"border-green-100"}
-                description={"Personnes infectées par l'hépatite C"}
-                bgColor={"bg-green-50"}
-            />
+                <StatCard
+                    icon={<AlertTriangleIcon className="text-green-500"/>}
+                    chiffre={"800k"}
+                    textcolor={"text-green-500"}
+                    bordercolor={"border-green-100"}
+                    description={"Personnes infectées par l'hépatite C"}
+                    bgColor={"bg-green-50"}
+                />
 
-            <StatCard
-                icon={<ActivityIcon className="text-red-500"/>}
-                chiffre={"85%"}
-                textcolor={"text-red-500"}
-                bordercolor={"border-red-100"}
-                description={"Ne connaissent pas leur statut"}
-                bgColor={"bg-red-50"}
-            />
+                <StatCard
+                    icon={<ActivityIcon className="text-red-500"/>}
+                    chiffre={"85%"}
+                    textcolor={"text-red-500"}
+                    bordercolor={"border-red-100"}
+                    description={"Ne connaissent pas leur statut"}
+                    bgColor={"bg-red-50"}
+                />
 
-            <StatCard
-                icon={<ShieldIcon className="text-yellow-500"/>}
-                chiffre={"95%"}
-                textcolor={"text-yellow-500"}
-                bordercolor={"border-yellow-100"}
-                description={"Guérissables si détectées tôt"}
-                bgColor={"bg-yellow-50"}
-            />
+                <StatCard
+                    icon={<ShieldIcon className="text-yellow-500"/>}
+                    chiffre={"95%"}
+                    textcolor={"text-yellow-500"}
+                    bordercolor={"border-yellow-100"}
+                    description={"Guérissables si détectées tôt"}
+                    bgColor={"bg-yellow-50"}
+                />
             </div>
         </div>
     )

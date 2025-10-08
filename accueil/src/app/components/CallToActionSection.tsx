@@ -1,8 +1,7 @@
-import { Button } from "./ui/button"
+import { Button } from "@/components/ui/button"
 
 export default function Rejoidre(){
     return(
-        <div>
             <section className="flex flex-col items-center bg-gradient-to-r from-blue-500 to-green-500 rounded-lg mx-[10%] my-[5%] gap-5 px-[23%] py-[2%]">
                     <h2 className="text-white font-bold text-2xl">Rejoignez notre combat</h2>
                     <p className="text-center">Chaque don compte, chaque partage sauve des vies. Ensemble, nous pouvons éradiquer les hépatites en Côte d&apos;Ivoire</p>
@@ -19,6 +18,5 @@ export default function Rejoidre(){
                         <Button className="hover:bg-blue-300 ml-5 border-2 border-white bg-transparent text-white">Découvrir nos actions</Button>
                     </div>
             </section>
-        </div>
     )
 }

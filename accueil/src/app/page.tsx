@@ -1,7 +1,7 @@
-import Hero from "@/components/HeroSection";
-import Stat from "@/components/StatsSection";
-import Temoignage from "@/components/TestimonialSection";
-import Rejoidre from "@/components/CallToActionSection";
+import Hero from "@/app/components/HeroSection";
+import Stat from "@/app/components/StatsSection";
+import Temoignage from "@/app/components/TestimonialSection";
+import Rejoidre from "@/app/components/CallToActionSection";
 
 export default function Accueil(){
   return(
